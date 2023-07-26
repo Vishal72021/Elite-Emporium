@@ -15,7 +15,7 @@ import "./App.css";
 export default function App() {
   return (
     <>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <ScrollToTop />
         <Routes>
           <Route exact path="/" element={<Home />}></Route>
