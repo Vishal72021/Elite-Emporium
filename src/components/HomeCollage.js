@@ -33,7 +33,7 @@ export default function ProductCollage() {
               <Link to="/emporium-products">
                 <button
                   type="button"
-                  className="btn btn-primary btn-lg px-4 me-md-2"
+                  className="btn btn-primary btn-lg px-4 me-md-2 w-100"
                 >
                   Browse More
                 </button>

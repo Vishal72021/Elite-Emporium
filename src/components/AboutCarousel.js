@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./AboutCarousel.css"
+import "./AboutCarousel.css";
 
 export default function AboutCarousel(props) {
   return (
@@ -40,9 +40,7 @@ export default function AboutCarousel(props) {
             <img
               src={props.carousel_img1}
               alt=""
-              className="bd-placeholder-img"
-              width="100%"
-              height="100%"
+              className="bd-placeholder-img d-flex w-100 h-100 mx-auto"
             />
             <div className="container">
               <div className="carousel-caption text-start">
@@ -53,7 +51,6 @@ export default function AboutCarousel(props) {
                     Sign up today
                   </a>
                 </p>
-
               </div>
             </div>
           </div>
@@ -61,9 +58,7 @@ export default function AboutCarousel(props) {
             <img
               src={props.carousel_img2}
               alt=""
-              className="bd-placeholder-img"
-              width="100%"
-              height="100%"
+              className="bd-placeholder-img d-flex w-100 h-100 mx-auto"
             />
             <div className="container">
               <div className="carousel-caption">
@@ -81,9 +76,7 @@ export default function AboutCarousel(props) {
             <img
               src={props.carousel_img3}
               alt=""
-              className="bd-placeholder-img"
-              width="100%"
-              height="100%"
+              className="bd-placeholder-img d-flex w-100 h-100 mx-auto"
             />
             <div className="container">
               <div className="carousel-caption text-end">

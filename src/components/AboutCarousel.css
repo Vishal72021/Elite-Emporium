@@ -39,3 +39,15 @@
     margin-top: 7rem;
   }
 }
+
+@media (max-width: 992px) {
+  .carousel-item {
+    height: 20rem;
+  }
+  .carousel {
+    margin-bottom: 0;
+  }
+  .carousel-caption h1, .carousel-caption p{
+    color: yellow;
+  }
+}

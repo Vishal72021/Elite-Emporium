@@ -1,0 +1,5 @@
+@media (min-width: 992px) and (max-width: 1182px) {
+  .navbar-nav {
+    width: 50%;
+  }
+}
