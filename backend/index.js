@@ -3,13 +3,13 @@ import dotenv from "dotenv";
 import userRoutes from "./routes/userRoutes.js";
 import productRoutes from "./routes/productRoutes.js";
 import orderRoutes from "./routes/orderRoutes.js";
-import logger from "./middleware/logger.js";
-import authenticateUser from "./middleware/authenticateUser.js";
+import logger from "./middlewares/logger.js";
+import authenticateUser from "./middlewares/authenticateUser.js";
 import {
   validateUserInput,
   validateProductInput,
-} from "./middleware/validate.js";
-import errorHandler from "./middleware/error.js";
+} from "./middlewares/validate.js";
+import errorHandler from "./middlewares/error.js";
 import connectToMongo from "./db.js";
 
 dotenv.config();

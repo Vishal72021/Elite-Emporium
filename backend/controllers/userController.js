@@ -5,6 +5,17 @@ import User from "../models/User.js";
 
 dotenv.config();
 
+// Helper function to generate a JWT token
+function generateAuthToken(user) {
+  const key = process.env.SECRET_KEY;
+  const payload = {
+    user: {
+      id: user.id,
+    },
+  };
+  return jwt.sign(payload, key, { expiresIn: "1h" });
+}
+
 // Register a new user
 async function registerUser(req, res) {
   try {
@@ -111,17 +122,6 @@ async function updateUserProfile(req, res) {
       .status(500)
       .json({ message: "An error occurred while updating the user profile." });
   }
-}
-
-// Helper function to generate a JWT token
-function generateAuthToken(user) {
-  const key = process.env.SECRET_KEY;
-  const payload = {
-    user: {
-      id: user.id,
-    },
-  };
-  return jwt.sign(payload, key, { expiresIn: "1h" }); // Replace 'your_secret_key' with your own secret key
 }
 
 const userController = {

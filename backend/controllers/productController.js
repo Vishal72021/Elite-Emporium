@@ -1,5 +1,29 @@
 import Product from "../models/Product.js";
 
+// Create a new product
+async function createProduct(req, res) {
+  try {
+    const { name, description, price, category, images, stockQuantity } =
+      req.body;
+    const newProduct = new Product({
+      name,
+      description,
+      price,
+      category,
+      images,
+      stockQuantity,
+    });
+
+    // Save the product to the database
+    const savedProduct = await newProduct.save();
+    res.status(201).json(savedProduct);
+  } catch (error) {
+    res
+      .status(500)
+      .json({ message: "An error occurred while creating the product." });
+  }
+}
+
 // Get all products
 async function getAllProducts(req, res) {
   try {
@@ -25,28 +49,6 @@ async function getProductById(req, res) {
     res
       .status(500)
       .json({ message: "An error occurred while fetching the product." });
-  }
-}
-
-// Create a new product
-async function createProduct(req, res) {
-  try {
-    const { name, description, price, category, images, stockQuantity } =
-      req.body;
-    const newProduct = new Product({
-      name,
-      description,
-      price,
-      category,
-      images,
-      stockQuantity,
-    });
-    const savedProduct = await newProduct.save();
-    res.status(201).json(savedProduct);
-  } catch (error) {
-    res
-      .status(500)
-      .json({ message: "An error occurred while creating the product." });
   }
 }
 
