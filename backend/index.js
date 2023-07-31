@@ -1,10 +1,14 @@
 import express from "express";
-import dotenv from "dotenv"
+import dotenv from "dotenv";
 import userRoutes from "./routes/userRoutes.js";
 import productRoutes from "./routes/productRoutes.js";
 import orderRoutes from "./routes/orderRoutes.js";
 import logger from "./middleware/logger.js";
 import authenticateUser from "./middleware/authenticateUser.js";
+import {
+  validateUserInput,
+  validateProductInput,
+} from "./middleware/validate.js";
 import errorHandler from "./middleware/error.js";
 import connectToMongo from "./db.js";
 
@@ -22,9 +26,9 @@ app.use(express.json()); // Parse JSON request bodies
 app.use(authenticateUser); // Authenticate users based on JWT token
 
 // Routes
-app.use("/api/users", userRoutes);
-app.use("/api/products", productRoutes);
-app.use("/api/orders", orderRoutes);
+app.use("/api/users", validateUserInput, userRoutes);
+app.use("/api/products", validateProductInput, productRoutes);
+app.use("/api/orders", authenticateUser, orderRoutes);
 
 // Add error handling middleware
 app.use(errorHandler);

@@ -1,5 +1,6 @@
 import express from "express";
 import UserController from "../controllers/userController.js";
+import AuthenticateUser from "../middleware/authenticateUser.js";
 
 const router = express.Router();
 
@@ -10,9 +11,9 @@ router.post("/register", UserController.registerUser);
 router.post("/login", UserController.loginUser);
 
 // Get user profile
-router.get("/profile/:userId", UserController.getUserProfile);
+router.get("/profile/:userId", AuthenticateUser, UserController.getUserProfile);
 
 // Update user profile
-router.put("/profile/:userId", UserController.updateUserProfile);
+router.put("/profile/:userId", AuthenticateUser, UserController.updateUserProfile);
 
 export default router;

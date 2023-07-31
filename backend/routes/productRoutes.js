@@ -4,18 +4,18 @@ import ProductController from "../controllers/productController.js";
 const router = express.Router();
 
 // Get all products
-router.get("/products", ProductController.getAllProducts);
-
-// Get a single product by ID
-router.get("/products/:productId", ProductController.getProductById);
+router.get("/", ProductController.getAllProducts);
 
 // Create a new product
-router.post("/products", ProductController.createProduct);
+router.post("/", ProductController.createProduct);
+
+// Get a single product by ID
+router.get("/:productId", ProductController.getProductById);
 
 // Update a product by ID
-router.put("/products/:productId", ProductController.updateProductById);
+router.put("/:productId", ProductController.updateProductById);
 
 // Delete a product by ID
-router.delete("/products/:productId", ProductController.deleteProductById);
+router.delete("/:productId", ProductController.deleteProductById);
 
 export default router;
