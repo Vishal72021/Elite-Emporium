@@ -1,9 +1,6 @@
 import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
-import dotenv from "dotenv";
 import User from "../models/User.js";
-
-dotenv.config();
 
 // Helper function to generate a JWT token
 function generateAuthToken(user) {

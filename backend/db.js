@@ -1,5 +1,6 @@
 import mongoose from "mongoose";
-const mongoURI = "mongodb://localhost:27017/EliteEmporium";
+
+const mongoURI = process.env.MONGO_URI;
 
 const options = {
   family: 4,

@@ -1,5 +1,5 @@
 import express from "express";
-import dotenv from "dotenv";
+import "dotenv/config.js"
 import userRoutes from "./routes/userRoutes.js";
 import productRoutes from "./routes/productRoutes.js";
 import orderRoutes from "./routes/orderRoutes.js";
@@ -11,8 +11,6 @@ import {
 } from "./middlewares/validate.js";
 import errorHandler from "./middlewares/error.js";
 import connectToMongo from "./db.js";
-
-dotenv.config();
 
 const app = express();
 const port = process.env.PORT || 8000;
