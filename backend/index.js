@@ -21,9 +21,8 @@ const port = process.env.PORT || 8000;
 connectToMongo();
 
 // Add the middlewares
-app.use(logger); // Log incoming requests
-app.use(express.json()); // Parse JSON request bodies
-app.use(authenticateUser); // Authenticate users based on JWT token
+app.use(logger);
+app.use(express.json());
 
 // Routes
 app.use("/api/users", validateUserInput, userRoutes);

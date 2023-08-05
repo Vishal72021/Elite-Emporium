@@ -22,7 +22,7 @@
 .featurette-heading {
   letter-spacing: -0.05rem;
 }
-@media (min-width: 40em) {
+@media (minWidth: 40em) {
   .carousel-caption p {
     margin-bottom: 1.25rem;
     font-size: 1.25rem;
@@ -34,13 +34,13 @@
   }
 }
 
-@media (min-width: 62em) {
+@media (minWidth: 62em) {
   .featurette-heading {
     margin-top: 7rem;
   }
 }
 
-@media (max-width: 992px) {
+@media (maxWidth: 992px) {
   .carousel-item {
     height: 20rem;
   }
