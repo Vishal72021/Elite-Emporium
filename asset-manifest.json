@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Elite-Emporium/static/css/main.3c7ffc2b.css",
-    "main.js": "/Elite-Emporium/static/js/main.0ef1f5b8.js",
+    "main.css": "/Elite-Emporium/static/css/main.425a4246.css",
+    "main.js": "/Elite-Emporium/static/js/main.b6b265ef.js",
     "static/js/787.e7c613cc.chunk.js": "/Elite-Emporium/static/js/787.e7c613cc.chunk.js",
     "static/media/carousel5.jpg": "/Elite-Emporium/static/media/carousel5.4478592a9b672b1db2ac.jpg",
     "static/media/carousel7.jpg": "/Elite-Emporium/static/media/carousel7.69fe0a842ec624b0d53c.jpg",
@@ -55,12 +55,12 @@
     "static/media/bestseller11.png": "/Elite-Emporium/static/media/bestseller11.f77bf1d509dbd6a0dfaa.png",
     "static/media/bestseller5.png": "/Elite-Emporium/static/media/bestseller5.89a9e93fa7e1125b70dd.png",
     "index.html": "/Elite-Emporium/index.html",
-    "main.3c7ffc2b.css.map": "/Elite-Emporium/static/css/main.3c7ffc2b.css.map",
-    "main.0ef1f5b8.js.map": "/Elite-Emporium/static/js/main.0ef1f5b8.js.map",
+    "main.425a4246.css.map": "/Elite-Emporium/static/css/main.425a4246.css.map",
+    "main.b6b265ef.js.map": "/Elite-Emporium/static/js/main.b6b265ef.js.map",
     "787.e7c613cc.chunk.js.map": "/Elite-Emporium/static/js/787.e7c613cc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3c7ffc2b.css",
-    "static/js/main.0ef1f5b8.js"
+    "static/css/main.425a4246.css",
+    "static/js/main.b6b265ef.js"
   ]
 }
