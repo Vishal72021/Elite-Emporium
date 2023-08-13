@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Elite-Emporium/static/css/main.35492cd1.css",
-    "main.js": "/Elite-Emporium/static/js/main.3d308499.js",
+    "main.js": "/Elite-Emporium/static/js/main.d07ffca9.js",
     "static/js/787.e7c613cc.chunk.js": "/Elite-Emporium/static/js/787.e7c613cc.chunk.js",
     "static/media/carousel5.jpg": "/Elite-Emporium/static/media/carousel5.4478592a9b672b1db2ac.jpg",
     "static/media/carousel7.jpg": "/Elite-Emporium/static/media/carousel7.69fe0a842ec624b0d53c.jpg",
@@ -56,11 +56,11 @@
     "static/media/bestseller5.png": "/Elite-Emporium/static/media/bestseller5.89a9e93fa7e1125b70dd.png",
     "index.html": "/Elite-Emporium/index.html",
     "main.35492cd1.css.map": "/Elite-Emporium/static/css/main.35492cd1.css.map",
-    "main.3d308499.js.map": "/Elite-Emporium/static/js/main.3d308499.js.map",
+    "main.d07ffca9.js.map": "/Elite-Emporium/static/js/main.d07ffca9.js.map",
     "787.e7c613cc.chunk.js.map": "/Elite-Emporium/static/js/787.e7c613cc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.35492cd1.css",
-    "static/js/main.3d308499.js"
+    "static/js/main.d07ffca9.js"
   ]
 }
