@@ -11,8 +11,10 @@ export default function Products() {
     <>
       <Header productColor="secondary" />
       <ProductHero />
-      <ProductCardGroup group='1' />
-      <ProductCardGroup group='2' />
+      <main>
+        <ProductCardGroup group="1" />
+        <ProductCardGroup group="2" />
+      </main>
       <Footer />
     </>
   );
