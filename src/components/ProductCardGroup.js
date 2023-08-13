@@ -23,7 +23,7 @@ export default function ProductCardGroup(props) {
         bg2color="white"
         heading1={props.group==='1'?"Tonal":"Bartesian"}
         subheading1=""
-        heading2={props.group==='1'?"Hisense 75\" U800GR 8K ULED Roku TV":"Tempo Move"}
+        heading2={props.group==='1'?"Hisense 8K ULED Roku TV":"Tempo Move"}
         subheading2=""
         image1={props.group==='1'?Product1:Product7}
         image2={props.group==='1'?Product2:Product8}
@@ -45,7 +45,7 @@ export default function ProductCardGroup(props) {
         bg1color="white"
         card2color="white"
         bg2color="white"
-        heading1={props.group==='1'?"Dyson Purifier Humidify+Cool Formaldehyde":"Osma Pro pre-order"}
+        heading1={props.group==='1'?"Dyson Purifier Humidify":"Osma Pro pre-order"}
         subheading1=""
         heading2={props.group==='1'?"Nanoleaf Lines":"LARQ Pitcher PureVis™"}
         subheading2=""
