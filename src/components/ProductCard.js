@@ -5,7 +5,7 @@ export default function ProductCard(props) {
     <>
       <div className="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
         <div
-          className={`text-bg-${props.bg1color} me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden`}
+          className={`text-bg-${props.bg1color} bg-${props.mainbg1color} me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden`}
         >
           <div className="my-3 py-3">
             <h2 className="display-5">{props.heading1}</h2>
@@ -19,11 +19,11 @@ export default function ProductCard(props) {
               borderRadius: "21px 21px 0 0",
             }}
           >
-            <img src={props.image1} alt="" height={300} width={'80%'} />
+            <img src={`images/products/${props.image1}`} alt="" height={300} width={'80%'} />
           </div>
         </div>
         <div
-          className={`text-bg-${props.bg2color} me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden`}
+          className={`text-bg-${props.bg2color} bg-${props.mainbg2color} me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden`}
         >
           <div className="my-3 py-3">
             <h2 className="display-5">{props.heading2}</h2>
@@ -37,7 +37,7 @@ export default function ProductCard(props) {
               borderRadius: "21px 21px 0 0",
             }}
           >
-            <img src={props.image2} alt="" height={300} width={'80%'} />
+            <img src={`images/products/${props.image2}`} alt="" height={300} width={'80%'} />
           </div>
         </div>
       </div>

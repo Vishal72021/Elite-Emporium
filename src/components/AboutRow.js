@@ -5,13 +5,13 @@ export default function AboutRow(props) {
     <>
       <div className="row bg-dark text-white">
         <div className="col-lg-4">
-          <img src={props.avatar1} alt=""
+          <img src={`images/avatars/${props.userimage1}`} alt=""
             className="bd-placeholder-img rounded-circle"
             width={140}
             height={140}/>
-          <h2 className="fw-normal">{props.head1}</h2>
+          <h2 className="fw-normal">{props.usertitle1}</h2>
           <p>
-            {props.para1}
+            {props.userdescription1}
           </p>
           <p>
             <a className="btn btn-secondary" href="/">
@@ -20,13 +20,13 @@ export default function AboutRow(props) {
           </p>
         </div>
         <div className="col-lg-4">
-        <img src={props.avatar2} alt=""
+        <img src={`images/avatars/${props.userimage2}`} alt=""
             className="bd-placeholder-img rounded-circle"
             width={140}
             height={140}/>
-          <h2 className="fw-normal">{props.head2}</h2>
+          <h2 className="fw-normal">{props.usertitle2}</h2>
           <p>
-            {props.para2}
+            {props.userdescription2}
           </p>
           <p>
             <a className="btn btn-secondary" href="/">
@@ -35,13 +35,13 @@ export default function AboutRow(props) {
           </p>
         </div>
         <div className="col-lg-4">
-        <img src={props.avatar3} alt=""
+        <img src={`images/avatars/${props.userimage3}`} alt=""
             className="bd-placeholder-img rounded-circle"
             width={140}
             height={140}/>
-          <h2 className="fw-normal">{props.head3}</h2>
+          <h2 className="fw-normal">{props.usertitle3}</h2>
           <p>
-            {props.para3}
+            {props.userdescription3}
           </p>
           <p>
             <a className="btn btn-secondary" href="/">

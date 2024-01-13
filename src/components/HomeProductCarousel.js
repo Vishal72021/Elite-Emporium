@@ -5,14 +5,9 @@ import ProductImg3 from "../assets/products/product3.jpg";
 import ProductImg4 from "../assets/products/product4.jpg";
 import ProductImg5 from "../assets/products/product5.jpg";
 
-export default function ProductCarousel() {
-  const styles = {
-    "@media screen and (min-width: 320px) and (max-width: 768px)": {
-      ".prod-img": {
-        height: "295px",
-      },
-    },
-  };
+import './HomeProductCarousel.css'
+
+export default function HomeProductCarousel() {
   return (
     <>
       <div className="bg-dark text-dark">
@@ -56,16 +51,16 @@ export default function ProductCarousel() {
           </div>
           <div className="carousel-inner">
             <div className="carousel-item active">
-              <div className="w-100 d-flex justify-content-center">
+              <div className="w-100 h-100 d-flex justify-content-center align-items-center">
                 <img
-                  className="prod-img" style={styles}
+                  className="prod-img"
                   src={ProductImg1}
-                  height={685}
+                  width={'60%'}
                   alt="..."
                 />
               </div>
               <div
-                className="carousel-caption d-none d-md-block text-warning fw-bold text-bg-dark"
+                className="carousel-caption d-md-block text-warning fw-bold text-bg-dark"
                 style={{ opacity: 0.6 }}
               >
                 <h5>Anker 737 Power Bank</h5>
@@ -76,16 +71,16 @@ export default function ProductCarousel() {
               </div>
             </div>
             <div className="carousel-item">
-              <div className="w-100 d-flex justify-content-center">
+              <div className="w-100 h-100 d-flex justify-content-center align-items-center">
                 <img
-                  className="prod-img" style={styles}
+                  className="prod-img"
                   src={ProductImg2}
-                  height={685}
+                  width={'60%'}
                   alt="..."
                 />
               </div>
               <div
-                className="carousel-caption d-none d-md-block text-warning fw-bold text-bg-dark"
+                className="carousel-caption d-md-block text-warning fw-bold text-bg-dark"
                 style={{ opacity: 0.6 }}
               >
                 <h5>Peak Design Tech Pouch</h5>
@@ -96,16 +91,16 @@ export default function ProductCarousel() {
               </div>
             </div>
             <div className="carousel-item">
-              <div className="w-100 d-flex justify-content-center">
+              <div className="w-100 h-100 d-flex justify-content-center align-items-center">
                 <img
-                  className="prod-img" style={styles}
+                  className="prod-img"
                   src={ProductImg3}
-                  height={685}
+                  width={'50%'}
                   alt="..."
                 />
               </div>
               <div
-                className="carousel-caption d-none d-md-block text-warning fw-bold text-bg-dark"
+                className="carousel-caption d-md-block text-warning fw-bold text-bg-dark"
                 style={{ opacity: 0.6 }}
               >
                 <h5>DANGO PRODUCTS D03 Dapper Bifold EDC Wallet</h5>
@@ -116,16 +111,16 @@ export default function ProductCarousel() {
               </div>
             </div>
             <div className="carousel-item">
-              <div className="w-100 d-flex justify-content-center">
+              <div className="w-100 h-100 d-flex justify-content-center align-items-center">
                 <img
-                  className="prod-img" style={styles}
+                  className="prod-img"
                   src={ProductImg4}
-                  height={685}
+                  width={'60%'}
                   alt="..."
                 />
               </div>
               <div
-                className="carousel-caption d-none d-md-block text-warning fw-bold text-bg-dark"
+                className="carousel-caption d-md-block text-warning fw-bold text-bg-dark"
                 style={{ opacity: 0.6 }}
               >
                 <h5>Phinistec Z6 Portable Music Player</h5>
@@ -137,16 +132,16 @@ export default function ProductCarousel() {
               </div>
             </div>
             <div className="carousel-item">
-              <div className="w-100 d-flex justify-content-center">
+              <div className="w-100 h-100 d-flex justify-content-center align-items-center">
                 <img
-                  className="prod-img" style={styles}
+                  className="prod-img"
                   src={ProductImg5}
-                  height={685}
+                  width={'60%'}
                   alt="..."
                 />
               </div>
               <div
-                className="carousel-caption d-none d-md-block text-warning fw-bold text-bg-dark"
+                className="carousel-caption d-md-block text-warning fw-bold text-bg-dark"
                 style={{ opacity: 0.6 }}
               >
                 <h5>HOTO Flashlight Lite</h5>

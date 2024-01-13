@@ -2,7 +2,7 @@ import React from "react";
 import LogoImg from "../assets/mainlogo.png";
 import { Link } from "react-router-dom";
 
-import "./Header.css"
+import "./Header.css";
 
 export default function Header(props) {
   return (
@@ -38,23 +38,7 @@ export default function Header(props) {
             className="justify-content-lg-start navbar-collapse collapse"
             id="navbarSupportedContent"
           >
-            {/* <a
-              href={LogoImg}
-              className="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none"
-            >
-              <img
-                src={LogoImg}
-                alt=""
-                className="bi me-2"
-                width={40}
-                height={40}
-                role="img"
-                style={{ borderRadius: 20 }}
-              />
-            </a> */}
-            <ul
-              className="nav col-12 col-lg-auto me-lg-auto mb-2 flex-row justify-content-center mb-md-0 navbar-nav me-auto mb-lg-0"
-            >
+            <ul className="nav col-12 col-lg-auto me-lg-auto mb-2 flex-row justify-content-center mb-md-0 navbar-nav me-auto mb-lg-0">
               <li className="nav-item">
                 <Link
                   to="/"

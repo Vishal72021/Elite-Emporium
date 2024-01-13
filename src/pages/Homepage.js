@@ -1,29 +1,29 @@
 import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import Welcome from "../components/HomeWelcome";
-import Collage from "../components/HomeCollage";
-import Carousel from "../components/HomeCarousel";
-import FeatureGrid from "../components/HomeFeatureGrid";
-import BrandGrid from "../components/HomeBrandGrid";
+import HomeWelcome from "../components/HomeWelcome";
+import HomeCollage from "../components/HomeCollage";
+import HomeProductCarousel from "../components/HomeProductCarousel";
+import HomeFeatureGrid from "../components/HomeFeatureGrid";
+import HomeBrandGrid from "../components/HomeBrandGrid";
 
 export default function Homepage() {
   return (
     <>
       <Header homeColor="secondary" />
-      <Welcome />
+      <HomeWelcome />
       <div className="bg-warning">
-        <Collage />
+        <HomeCollage />
       </div>
       <div className="bg-dark py-5">
         <h1 className="text-center bg-dark text-warning">
           Our Most Loved Products
         </h1>
-        <Carousel />
+        <HomeProductCarousel />
       </div>
-      <FeatureGrid />
+      <HomeFeatureGrid />
       <div className="bg-secondary">
-        <BrandGrid />
+        <HomeBrandGrid />
       </div>
       <Footer />
     </>
