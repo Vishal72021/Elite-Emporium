@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function ProductHero() {
   return (
@@ -11,18 +12,18 @@ export default function ProductHero() {
             best products below.
           </h3>
           <div className="d-flex gap-3 justify-content-center lead fw-normal">
-            <a href='/' className="icon-link">
+            <Link to='/' className="icon-link">
               Learn more
               <svg className="bi">
                 <use xlinkHref="#chevron-right" />
               </svg>
-            </a>
-            <a className="icon-link" href="/">
+            </Link>
+            <Link className="icon-link" to="/elite-best-sellers">
               Buy
               <svg className="bi">
                 <use xlinkHref="#chevron-right" />
               </svg>
-            </a>
+            </Link>
           </div>
         </div>
         <div className="product-device shadow-sm d-none d-md-block" />

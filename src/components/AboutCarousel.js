@@ -10,6 +10,7 @@ import Carousel8 from "../assets/carousels/carousel8.jpg";
 import Carousel9 from "../assets/carousels/carousel9.jpg";
 
 import "./AboutCarousel.css";
+import { Link } from "react-router-dom";
 
 export default function AboutCarousel() {
   return (
@@ -92,7 +93,7 @@ export default function AboutCarousel() {
             <img
               src={Carousel1}
               alt=""
-              className="bd-placeholder-img d-flex w-100 h-100 mx-auto"
+              className="bd-placeholder-img d-flex w-100 h-100 mx-auto opacity-75"
             />
             <div className="container">
               <div className="carousel-caption text-start">
@@ -101,9 +102,9 @@ export default function AboutCarousel() {
                   Pioneering Project Management Excellence
                 </p>
                 <p>
-                  <a className="btn btn-lg btn-primary" href="/">
+                  <Link to="/register-for-account" className="btn btn-lg btn-primary">
                     Sign up today
-                  </a>
+                  </Link>
                 </p>
               </div>
             </div>
@@ -112,16 +113,16 @@ export default function AboutCarousel() {
             <img
               src={Carousel2}
               alt=""
-              className="bd-placeholder-img d-flex w-100 h-100 mx-auto"
+              className="bd-placeholder-img d-flex w-100 h-100 mx-auto opacity-75"
             />
             <div className="container">
               <div className="carousel-caption">
                 <h1>CodeCrafters</h1>
                 <p>Mastering Digital Project Alchemy</p>
                 <p>
-                  <a className="btn btn-lg btn-primary" href="/">
+                  <Link to="/" className="btn btn-lg btn-primary">
                     Learn more
-                  </a>
+                  </Link>
                 </p>
               </div>
             </div>
@@ -130,16 +131,16 @@ export default function AboutCarousel() {
             <img
               src={Carousel3}
               alt=""
-              className="bd-placeholder-img d-flex w-100 h-100 mx-auto"
+              className="bd-placeholder-img d-flex w-100 h-100 mx-auto opacity-75"
             />
             <div className="container">
               <div className="carousel-caption text-end">
                 <h1>PixelPro</h1>
                 <p>Architecting Dreams, Delivering Realities</p>
                 <p>
-                  <a className="btn btn-lg btn-primary" href="/">
-                    Browse gallery
-                  </a>
+                  <Link to="/login-to-website" className="btn btn-lg btn-primary">
+                    Login to Website
+                  </Link>
                 </p>
               </div>
             </div>
@@ -148,7 +149,7 @@ export default function AboutCarousel() {
             <img
               src={Carousel4}
               alt=""
-              className="bd-placeholder-img d-flex w-100 h-100 mx-auto"
+              className="bd-placeholder-img d-flex w-100 h-100 mx-auto opacity-75"
             />
             <div className="container">
               <div className="carousel-caption text-start">
@@ -157,9 +158,9 @@ export default function AboutCarousel() {
                   Crafting Captivating Digital Experiences for Tomorrow's Web
                 </p>
                 <p>
-                  <a className="btn btn-lg btn-primary" href="/">
+                  <Link to="/register-for-account" className="btn btn-lg btn-primary">
                     Sign up today
-                  </a>
+                  </Link>
                 </p>
               </div>
             </div>
@@ -168,7 +169,7 @@ export default function AboutCarousel() {
             <img
               src={Carousel5}
               alt=""
-              className="bd-placeholder-img d-flex w-100 h-100 mx-auto"
+              className="bd-placeholder-img d-flex w-100 h-100 mx-auto opacity-75"
             />
             <div className="container">
               <div className="carousel-caption">
@@ -177,9 +178,9 @@ export default function AboutCarousel() {
                   Unleashing Interactive Wizardry with Cutting-Edge Web Designs
                 </p>
                 <p>
-                  <a className="btn btn-lg btn-primary" href="/">
+                  <Link to="/" className="btn btn-lg btn-primary">
                     Learn more
-                  </a>
+                  </Link>
                 </p>
               </div>
             </div>
@@ -188,7 +189,7 @@ export default function AboutCarousel() {
             <img
               src={Carousel6}
               alt=""
-              className="bd-placeholder-img d-flex w-100 h-100 mx-auto"
+              className="bd-placeholder-img d-flex w-100 h-100 mx-auto opacity-75"
             />
             <div className="container">
               <div className="carousel-caption text-end">
@@ -197,9 +198,9 @@ export default function AboutCarousel() {
                   Igniting Inspiration through Bold and Bespoke Web Solutions
                 </p>
                 <p>
-                  <a className="btn btn-lg btn-primary" href="/">
-                    Browse gallery
-                  </a>
+                  <Link to="/login-to-website" className="btn btn-lg btn-primary">
+                    Login to Website
+                  </Link>
                 </p>
               </div>
             </div>
@@ -208,7 +209,7 @@ export default function AboutCarousel() {
             <img
               src={Carousel7}
               alt=""
-              className="bd-placeholder-img d-flex w-100 h-100 mx-auto"
+              className="bd-placeholder-img d-flex w-100 h-100 mx-auto opacity-75"
             />
             <div className="container">
               <div className="carousel-caption text-start">
@@ -217,9 +218,9 @@ export default function AboutCarousel() {
                   Unleash Quality with Our Expert Web Testing Wizards!
                 </p>
                 <p>
-                  <a className="btn btn-lg btn-primary" href="/">
+                  <Link to="/register-for-account" className="btn btn-lg btn-primary">
                     Sign up today
-                  </a>
+                  </Link>
                 </p>
               </div>
             </div>
@@ -228,16 +229,16 @@ export default function AboutCarousel() {
             <img
               src={Carousel8}
               alt=""
-              className="bd-placeholder-img d-flex w-100 h-100 mx-auto"
+              className="bd-placeholder-img d-flex w-100 h-100 mx-auto opacity-75"
             />
             <div className="container">
               <div className="carousel-caption">
                 <h1>Rapid Click & Check</h1>
                 <p>Lightning-Fast Web Testing for Seamless User Experiences!</p>
                 <p>
-                  <a className="btn btn-lg btn-primary" href="/">
+                  <Link to="/" className="btn btn-lg btn-primary">
                     Learn more
-                  </a>
+                  </Link>
                 </p>
               </div>
             </div>
@@ -246,16 +247,16 @@ export default function AboutCarousel() {
             <img
               src={Carousel9}
               alt=""
-              className="bd-placeholder-img d-flex w-100 h-100 mx-auto"
+              className="bd-placeholder-img d-flex w-100 h-100 mx-auto opacity-75"
             />
             <div className="container">
               <div className="carousel-caption text-end">
                 <h1>Bug Bash Brigade</h1>
                 <p>Crush Glitches and Bugs with Supreme Web Testing Prowess!</p>
                 <p>
-                  <a className="btn btn-lg btn-primary" href="/">
-                    Browse gallery
-                  </a>
+                  <Link to="/login-to-website" className="btn btn-lg btn-primary">
+                    Login to Website
+                  </Link>
                 </p>
               </div>
             </div>

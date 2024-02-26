@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Welcome() {
   return (
@@ -18,18 +19,22 @@ export default function Welcome() {
               at your fingertips. Join the revolution today!"
             </p>
             <div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
-              <button
-                type="button"
-                className="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold"
-              >
-                Custom button
-              </button>
-              <button
-                type="button"
-                className="btn btn-outline-light btn-lg px-4"
-              >
-                Secondary
-              </button>
+              <Link to="/emporium-products">
+                <button
+                  type="button"
+                  className="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold"
+                >
+                  Browse Products
+                </button>
+              </Link>
+              <Link to="/elite-best-sellers">
+                <button
+                  type="button"
+                  className="btn btn-outline-light btn-lg px-4"
+                >
+                  Browse Best Sellers
+                </button>
+              </Link>
             </div>
           </div>
         </div>

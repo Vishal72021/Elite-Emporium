@@ -30,20 +30,22 @@ export default function ProductCollage() {
               with our unparalleled variety, all under one roof!
             </p>
             <div className="d-grid gap-2 d-md-flex justify-content-md-start">
-              <Link to="/emporium-products">
+              <Link to="/buy-elite-pro">
                 <button
                   type="button"
                   className="btn btn-primary btn-lg px-4 me-md-2 w-100"
                 >
-                  Browse More
+                  Go Premium
                 </button>
               </Link>
-              <button
-                type="button"
-                className="btn btn-outline-secondary btn-lg px-4"
-              >
-                Default
-              </button>
+              <Link to="/about-team">
+                <button
+                  type="button"
+                  className="btn btn-outline-secondary btn-lg px-4"
+                >
+                  About Us
+                </button>
+              </Link>
             </div>
           </div>
         </div>

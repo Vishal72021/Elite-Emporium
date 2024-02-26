@@ -17,7 +17,7 @@ export default function BestSellerRow(props) {
                 backgroundPosition: "center",
               }}
             >
-              <div className="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+              <div className="d-flex flex-column h-100 p-5 pb-3 text-bg-secondary text-white text-shadow-1" style={{opacity: .7}}>
                 <h3 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
                   {props.title1}
                 </h3>
@@ -56,7 +56,7 @@ export default function BestSellerRow(props) {
                 backgroundPosition: "center",
               }}
             >
-              <div className="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+              <div className="d-flex flex-column h-100 p-5 pb-3 text-bg-secondary text-white text-shadow-1" style={{opacity: .7}}>
                 <h3 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
                   {props.title2}
                 </h3>
@@ -95,7 +95,7 @@ export default function BestSellerRow(props) {
                 backgroundPosition: "center",
               }}
             >
-              <div className="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+              <div className="d-flex flex-column h-100 p-5 pb-3 text-bg-secondary text-white text-shadow-1" style={{opacity: .7}}>
                 <h3 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
                   {props.title3}
                 </h3>
